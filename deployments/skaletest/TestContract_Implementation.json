@@ -1,0 +1,61 @@
+{
+  "address": "0xe4B400264F07Ec72fE3181136598f37c12f16A13",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "txt",
+          "type": "string"
+        }
+      ],
+      "name": "MyMessage",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "printHello",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xba35d68bbd9279dbce814bdc76bc608b0058410417e92d9676c14e67c493d1a5",
+  "receipt": {
+    "to": "0x0000000000000000000000000000000000000000",
+    "from": "0x9a1187cB7084F3E60a8b99eb195D9f3c29361a8a",
+    "contractAddress": "0xe4B400264F07Ec72fE3181136598f37c12f16A13",
+    "transactionIndex": 0,
+    "gasUsed": "95577",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x8f6fb4bbb7138a76234b5597e9a13c3626766261f90225147358afa1088eaef6",
+    "transactionHash": "0xba35d68bbd9279dbce814bdc76bc608b0058410417e92d9676c14e67c493d1a5",
+    "logs": [],
+    "blockNumber": 1050471,
+    "cumulativeGasUsed": "95577",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "454aa0b9ed7aa03bdb82e6eb3b2769de",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"txt\",\"type\":\"string\"}],\"name\":\"MyMessage\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"printHello\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/TestContract.sol\":\"TestContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/TestContract.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\ncontract TestContract {\\n  event MyMessage(string txt);\\n  function printHello() public {\\n    emit MyMessage(\\\"Hellow, World\\\");\\n  }\\n}\",\"keccak256\":\"0x852930d1aa423b7b492520c8cbd636e45d4269835844b6d547e7736e72ec38a5\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060c38061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf2cc57614602d575b600080fd5b60336035565b005b7f35da8d9c74731d2d4cd09ea6b8589c59c7604a6e454a7120fc65b78caf7189b06040516083906020808252600d908201526c12195b1b1bddcb0815dbdc9b19609a1b604082015260600190565b60405180910390a156fea2646970667358221220956d1159af412dfce5a6d7e472bcf59d0cb921fefcd5e7b4025d5828d6ecadec64736f6c634300080f0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063cf2cc57614602d575b600080fd5b60336035565b005b7f35da8d9c74731d2d4cd09ea6b8589c59c7604a6e454a7120fc65b78caf7189b06040516083906020808252600d908201526c12195b1b1bddcb0815dbdc9b19609a1b604082015260600190565b60405180910390a156fea2646970667358221220956d1159af412dfce5a6d7e472bcf59d0cb921fefcd5e7b4025d5828d6ecadec64736f6c634300080f0033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
