@@ -1,0 +1,14 @@
+DEPLOYER_PRIVATE_KEY=
+# Public mumbai:
+#  https://matic-mumbai.chainstacklabs.com
+#  https://rpc-mumbai.matic.today
+#  https://rpc-mumbai.maticvigil.com
+RPC_POLYGONMUMBAI=https://matic-mumbai.chainstacklabs.com
+RPC_FTMTESTNET=https://rpc.testnet.fantom.network
+RPC_RINKEBY=
+RPC_SKALETEST=
+ETHERSCAN_TOKEN_FTMTESTNET=
+ETHERSCAN_TOKEN_POLYGONMUMBAI=
+ETHERSCAN_TOKEN_SKALETEST=
+ETHERSCAN_SKALETEST_API_URL=
+ETHERSCAN_SKALETEST_BROWSER_URL=
